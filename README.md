@@ -6,7 +6,8 @@ this this login/rajisteresd page where usre submit theire email, usre-name and p
 
 # welcome page whrere usrer enter theire habit weekly.
 ![image](https://user-images.githubusercontent.com/103310054/186966263-0db72c74-b900-41e6-9c98-4deaf1c88f59.png)
-
+#link:  https://habittrk.herokuapp.com/ deployed to Heroku
+link: https://habittrk.herokuapp.com/ | https://git.heroku.com/habittrk.git
 
 A scalable full stack web application which lets users **track their activities throughout the day and for the entire week and maintain weekly streaks**.
 Deployed at :
