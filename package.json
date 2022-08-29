@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index",
-    "start":"node index.js"
+     "start": "node index.js"
   },
   "author": "irfan",
   "license": "ISC",
@@ -16,7 +15,7 @@
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "express-session": "^1.17.3",
-    "mongoose": "^6.5.2",
+    "mongoose": "^6.5.3",
     "passport": "^0.5.3",
     "passport-local": "^1.0.0"
   },
