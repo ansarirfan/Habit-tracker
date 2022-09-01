@@ -47,7 +47,7 @@ app.use(express.urlencoded({extended: true}));  //using parser to read form data
 
 app.use('/',require('./routes/index'));   //redirecting all the routes starting with '/' to the routes folder
 
-app.listen(port,function(err){            //binding and listen on port 8000
+app.listen(port,function(err){            //binding and listen on port 8050
     if(err){console.log('Error in running server');return;}
     console.log("Express server is up and running on port",port);
     return;
