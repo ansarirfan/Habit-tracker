@@ -1,12 +1,12 @@
 const dotEnv = require('dotenv');
 dotEnv.config();
 const express = require('express');
-const port = process.env.PORT || 8050;
+const port = process.env.PORT || 8000;
 
 const db = require('./config/mongoose');  //mongoose setup
 const session = require('express-session'); //used for session-cookie
 const customMware = require('./config/middleware'); //using locally created middleware
-
+require("dotenv").config();
 //require passport and local startegy that we have set-in
 const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');

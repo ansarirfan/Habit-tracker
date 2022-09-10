@@ -7,7 +7,7 @@
     "node": "16.17.0"
   },
   "scripts": {
-     "start": "node index.js"
+    "start": "node index.js"
   },
   "author": "irfan",
   "license": "ISC",
